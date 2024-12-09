@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome</title>
+</head>
+<body>
+    <script>  
+    function Palindrome(str) { 
+        let j = str.length - 1
+        for (let i = 0; i < str.length / 2; i++) {
+            if (str[i] != str[j]) {
+                document.write("No");
+            }else{
+                document.write("Yes");
+            }
+            j--;
+        }
+        
+    }
+    
+let input=prompt("Enter a string: ");
+Palindrome(input)
+</script>
+</body>
+</html>

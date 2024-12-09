@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime</title>
+</head>
+<body>
+    <script>
+    function Prime(n) {  
+    if (n <= 1) 
+        document.write("Yes")
+    if (n == 2 || n == 3) 
+        document.write("Yes")  
+    if (n % 2 == 0 || n % 3 == 0) 
+        document.write("No")
+    else
+        document.write("YES") 
+    }
+    
+let input=prompt("Enter a number: ");
+Prime(input)
+</script>
+</body>
+</html>
